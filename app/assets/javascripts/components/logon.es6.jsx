@@ -1,4 +1,4 @@
-define(['react'], function(React){
+define(['app-react'], function(React){
   class Logon extends React.Component {
     render() {
       return <form>

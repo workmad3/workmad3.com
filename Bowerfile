@@ -3,7 +3,10 @@
 
 # asset 'bootstrap'
 asset 'jquery'
+asset 'react'
 asset 'react-router'
 asset 'react-bootstrap'
 asset 'react-router-bootstrap'
-asset 'flux'
+asset 'fluxxor'
+asset 'es5-shim'
+asset 'console-polyfill'

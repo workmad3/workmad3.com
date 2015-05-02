@@ -1,8 +1,6 @@
 shim:
-  react:
-    exports: 'React'
-  react_ujs:
-    deps:
-      - components
+  react-router:
+    deps: ['app-react']
+    exports: Router
 modules:
   - name: 'application'

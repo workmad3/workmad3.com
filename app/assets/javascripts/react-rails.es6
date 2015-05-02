@@ -1,4 +1,4 @@
-define(["jquery", "react", "components"], function($, React, Components) {
+define(["jquery", "app-react", "components"], function($, React, Components) {
   var ReactRailsUJS = {
     CLASS_NAME_ATTR: 'data-react-class',
     PROPS_ATTR: 'data-react-props',
