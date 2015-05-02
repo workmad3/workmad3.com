@@ -1,8 +1,4 @@
-define(["react", "components/logon"], function(React, Logon) {
-  // Expose top-level components globally here
-  window.React = React;
-  window.Logon = Logon;
-
+define(["components/logon"], function(Logon) {
   return {
     Logon: Logon
   }
