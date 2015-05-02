@@ -1,0 +1,8 @@
+shim:
+  react:
+    exports: 'React'
+  react_ujs:
+    deps:
+      - components
+modules:
+  - name: 'application'
