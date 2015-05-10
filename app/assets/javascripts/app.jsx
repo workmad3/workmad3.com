@@ -1,19 +1,18 @@
 import React from 'react';
-import Fluxxor from 'fluxxor';
 import Router from 'react-router';
-import Stores from 'stores';
-import Actions from 'actions';
 import Routes from 'routes';
+import AppFlux from 'app-flux';
+import FluxComponent from 'flummox/component';
 
 var init = function() {
-  var stores = {
-    posts: new Stores.PostsStore()
-  }
-  var flux = new Fluxxor.Flux(stores, Actions.methods);
+  let flux = new AppFlux();
+
   Router.run(Routes, Router.HistoryLocation, function(Handler) {
     React.render(
-      <Handler flux={flux} />,
-        document.getElementById("app")
+      <FluxComponent flux={flux}>
+        <Handler />
+      </FluxComponent>,
+      document.getElementById("app")
     )
   });
 }

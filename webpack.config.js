@@ -34,12 +34,6 @@ module.exports = {
     extensions: [ '', '.webpack.js', '.web.js', '.js', '.js.jsx', '.jsx' ]
   },
 
-  externals: {
-    // If you load jQuery through a CDN this will still work
-    // jQuery is now available via "require('jquery')"
-    jquery: 'var jQuery'
-  },
-
   // Turns on source maps
   // Prefix with a '#' to squash the FF warnings that say:
   // 'Using //@ to indicate sourceMappingURL pragmas is deprecated.

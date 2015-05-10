@@ -1,7 +1,7 @@
 import init from 'app';
-import jQuery from 'jQuery';
+import jQuery from 'jquery';
 
 jQuery(init);
 require("expose?React!react");
 require("expose?jQuery!jquery");
-require("expose?!jquery");
+require("expose?$!jquery");

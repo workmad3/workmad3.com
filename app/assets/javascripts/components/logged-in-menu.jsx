@@ -6,7 +6,7 @@ export default class LoggedInMenu extends React.Component {
     return (
       <ul className="nav navbar-nav">
         <li className="dropdown">
-          <a href="#" className="dropdown-toggle" data-toggle="dropdown">Some User</a>
+          <a href="#" className="dropdown-toggle" data-toggle="dropdown">{this.props.user.username}</a>
           <DropdownMenu>
             <li><a href="#">Profile</a></li>
           </DropdownMenu>

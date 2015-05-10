@@ -5,7 +5,7 @@ import LoggedOutMenu from 'components/logged-out-menu';
 
 export default class Topbar extends React.Component {
   loggedIn() {
-    return true;
+    return this.props.currentUser !== undefined;
   }
 
   render() {
@@ -13,7 +13,7 @@ export default class Topbar extends React.Component {
 
     return (
       <Navbar staticTop>
-        <UserMenu />
+        <UserMenu user={this.props.currentUser} />
       </Navbar>
     )
   }

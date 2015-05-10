@@ -1,7 +1,7 @@
-import PostsStore from 'stores/posts';
+import UserStore from 'stores/user';
 
-var Stores = {
-  PostsStore: PostsStore
+let Stores = {
+  UserStore: UserStore
 }
 
 export default Stores;
