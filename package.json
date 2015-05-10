@@ -1,0 +1,33 @@
+{
+  "name": "workmad3.com",
+  "version": "0.0.0",
+  "description": "Client for workmad3.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workmad3/workmad3.com"
+  },
+  "keywords": [
+    "webpack",
+    "ruby-on-rails",
+    "workmad3"
+  ],
+  "author": "David Workman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/workmad3/workmad3.com/issues"
+  },
+  "homepage": "http://workmad3.com",
+  "dependencies": {
+    "babel-core": "^5.2.17",
+    "babel-loader": "^5.0.0",
+    "fluxxor": "^1.5.3",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "webpack": "^1.4.0-beta2"
+  }
+}

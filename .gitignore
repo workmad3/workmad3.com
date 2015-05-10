@@ -18,3 +18,5 @@
 /vendor/assets/bower_components
 /vendor/assets/.bowerrc
 /vendor/assets/bower.json
+/node_modules
+/app/assets/javascripts/main.bundle.js
