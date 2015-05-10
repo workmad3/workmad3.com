@@ -1,1 +1,2 @@
-//= require main.bundle
+//= require application.bundle
+//= require bootstrap
