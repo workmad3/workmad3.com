@@ -1,9 +1,9 @@
 import React from 'react';
 import Fluxxor from 'fluxxor';
 import Router from 'react-router';
-import Stores from './stores';
-import Actions from './actions';
-import Routes from './routes';
+import Stores from 'stores';
+import Actions from 'actions';
+import Routes from 'routes';
 
 var init = function() {
   var stores = {

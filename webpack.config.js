@@ -26,6 +26,9 @@ module.exports = {
   },
 
   resolve: {
+    root: [
+      __dirname + '/app/assets/javascripts'
+    ],
     extensions: [ '', '.webpack.js', '.web.js', '.js', '.js.jsx', '.jsx' ]
   },
 

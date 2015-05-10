@@ -1,4 +1,4 @@
-import PostsStore from './stores/posts';
+import PostsStore from 'stores/posts';
 
 var Stores = {
   PostsStore: PostsStore

@@ -1,7 +1,7 @@
-import Logon from './components/logon';
+import LogonForm from 'components/logon_form';
 
 var Components = {
-  Logon: Logon
+  LogonForm: LogonForm
 };
 
 export default Components;
