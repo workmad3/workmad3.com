@@ -26,7 +26,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [ '', '.webpack.js', '.web.js', '.js', '.jsx' ]
+    extensions: [ '', '.webpack.js', '.web.js', '.js', '.js.jsx', '.jsx' ]
   },
 
   externals: {
@@ -46,9 +46,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        // @see https://github.com/shama/es6-loader
-        // It was installed with 'npm install es6-loader --save' and transpiles
-        // es6 to es5.
         loader: 'babel-loader'
       }
     ]

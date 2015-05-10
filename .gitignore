@@ -20,3 +20,4 @@
 /vendor/assets/bower.json
 /node_modules
 /app/assets/javascripts/main.bundle.js
+/public/assets
